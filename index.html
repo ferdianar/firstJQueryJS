@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hide demo</title>
+  <style>
+  div {
+    background: #ece023;
+    width: 30px;
+    height: 40px;
+    margin: 2px;
+    float: left;
+  }
+      
+      section   {
+          padding: 5px;
+          border: 1px solid black;
+          background: red;
+          width: 30px;
+          height: 40px;
+          margin: 2px;
+          float: left;
+      }
+      footer    {
+          padding: 5px;
+          border: 1px solid black;
+          background: red;
+          width: 30px;
+          height: 40px;
+          margin: 2px;
+          float: right;
+      }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+    <!--
+<div></div>
+    -->
+        <section></section>
+  
+        <footer></footer>
+ 
+    <!--
+<script>
+for ( var i = 0; i <= 10; i++ ) {
+  $( "<div>" ).appendTo( document.body );
+}
+$( "div" ).click(function() {
+  $( this ).hide( 2000, function() {
+    $( this ).remove();
+  });
+});
+    </script>
+    -->
+    
+    <script>
+    for ( var x = 0; x <= 9; x++ ) {
+        $( "<section>" ).appendTo( document.body );
+    }
+    $("section").click(function()   {
+        $(this).hide( 2000, function()  {
+            $(this).remove();
+        });
+    });
+        
+        for( n = 0; n <= 9; n++ )  {
+            $("<footer>").appendTo( document.body);
+        }
+            $("footer").click(function()  {
+            $(this).hide(2000, function() {
+                $(this).remove();
+            });
+        });
+</script>
+ 
+</body>
+</html>

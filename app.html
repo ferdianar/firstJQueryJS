@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--title-->
+        <title> F-LEARN&trade; </title>
+        <!--meta-tags--file-description-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome"> <!--browser-support-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--open-in-any-device-->
+    <!--stylesheets-->
+        <style type="text/css">    
+            #lines  {
+                width: 100%;
+            }
+            #lines .red {
+                width: 6.25%;
+                height: 20px;
+                background-color: red;
+                float: left;
+            }
+            #lines .yellow  {
+                width: 6.25%;
+                height: 20px;
+                float: left;
+                background-color: #fff800;
+            }
+            #lines .chartreuse  {
+                width: 6.25%;
+                height: 20px;
+                float: left;
+                background-color: chartreuse;
+            }
+            #lines .blue    {
+                width: 6.25%;
+                height: 20px;
+                float: left;
+                background-color: blue;
+            }
+            area {
+                width: 100%;
+            }
+            .content1    {
+                width: 50%;
+                float: left;
+                background-color: aqua;
+            }
+            .content2   {
+                float:right;
+                background-color:aqua;
+                width: 50%;
+            }
+            img {
+                padding-left: 1%;
+                padding-top: 1%;
+                width: 10%;
+                height: 70px;
+            }
+            #button {
+                width: 100%;
+                background-image: linear-gradient(to right, black, gray, black);
+            }
+            #button #outButton {border-radius: 7px;}
+            #button #first, #outButton, #second {
+                padding: 5px 20px;
+                border: none;
+            }
+            #button #first:hover, #second:hover    {
+                background-image: linear-gradient(to right, red, yellow);
+            }
+            #button #outButton:active   {
+                background-color: red;
+            }
+            #button #ShowSide13, #ShowSide24    {
+                border: none;
+                padding: 5px 20px;
+            }
+            #button #ShowSide13:hover, #ShowSide24:hover  {
+                background-color : coral;
+            }
+            #button #ShowSide13 {
+                float: left;
+            }
+            #button #ShowSide24 {
+                float: right;
+            }
+            #container  {
+                width: 100%;
+            }
+            #container #side1, #side2, #side3, #side4   {
+                width: 25%;
+                float: left;
+            }
+            #container #side1   {
+                background-color: chocolate;
+            }
+            #container #side2   {
+                background-color: #fff800;
+            }
+            #container #side3   {
+                background-color: chartreuse;
+            }
+            #container #side4   {
+                background-color: skyblue;
+            }
+            #container p    {
+                text-align: justify;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+        </style>
+    <!--script--jQuery-->
+        <script type="text/javascript" src="JS/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <!--all--align--center-->
+        <center>
+            <div id="lines">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+            </div>
+           <div id="area">
+               <div class="content1">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+                <img src="picture/Gift_Box.png">
+               </div>
+                <div class="content2">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+                    <img src="picture/gift_98496.png">
+               </div>
+           </div> 
+            <div id="button">
+                <button id="ShowSide13" type="button"> Left Side </button>
+                <button id="first" type="button"> Show ! </button>
+                <button id="outButton" type="button"> - BUTTON - </button>
+                <button id="second" type="button"> Hide ! </button>
+                <button id="ShowSide24" type="button"> Right Side </button>
+            </div>
+            <section id="container">
+                <nav id="side1">
+                    <p> Scrum is a framework for developing, delivering, and sustaining 
+        complex products. This Guide contains the definition of Scrum. This 
+        definition consists of Scrum’s roles, events, artifacts, and
+        the rules that bind them together. Ken Schwaber and Jeff Sutherland 
+        developed Scrum. the Scrum Guide is written and provided by them. Together, 
+        they stand behind the Scrum Guide. </p>
+                </nav>
+                <nav id="side2">
+                    <p> Scrum is a framework for developing, delivering, and sustaining 
+        complex products. This Guide contains the definition of Scrum. This 
+        definition consists of Scrum’s roles, events, artifacts, and
+        the rules that bind them together. Ken Schwaber and Jeff Sutherland 
+        developed Scrum. the Scrum Guide is written and provided by them. Together, 
+        they stand behind the Scrum Guide. </p>
+                </nav>
+                <nav id="side3">
+                    <p> Scrum is a framework for developing, delivering, and sustaining 
+        complex products. This Guide contains the definition of Scrum. This 
+        definition consists of Scrum’s roles, events, artifacts, and
+        the rules that bind them together. Ken Schwaber and Jeff Sutherland 
+        developed Scrum. the Scrum Guide is written and provided by them. Together, 
+        they stand behind the Scrum Guide. </p>
+                </nav>
+                <nav id="side4">
+                    <p> Scrum is a framework for developing, delivering, and sustaining 
+        complex products. This Guide contains the definition of Scrum. This 
+        definition consists of Scrum’s roles, events, artifacts, and
+        the rules that bind them together. Ken Schwaber and Jeff Sutherland 
+        developed Scrum. the Scrum Guide is written and provided by them. Together, 
+        they stand behind the Scrum Guide. </p>
+                </nav>
+            </section>
+            <div id="lines">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="chartreuse"></div>
+                <div class="blue"></div>
+            </div>
+        </center>
+        <script type="text/javascript">
+            $("#side1, #side2, #side3, #side4").hide();
+            $("#ShowSide13, #ShowSide24").hide();
+            $("#outButton").click(function()    {
+                $("#ShowSide13, #ShowSide24").show("slow");
+            });
+            $("#outButton").click(function()    {
+                $("#ShowSide13, #ShowSide24").show("slow");
+            });
+            $("img").click(function()   {
+                $(this).hide(1500, function()   {
+                });
+            });
+            $("#ShowSide13").click(function()   {
+                $("#side1, #side2").show("slow");
+            });
+            $("#ShowSide24").click(function()   {
+                $("#side3, #side4").show("slow");
+            });
+            $("#first").click(function()    {
+                $("img").show("slow");
+            });
+            $("#second").click(function()   {
+                $("img").hide("slow");
+            });
+        </script>
+    </body>
+</html>

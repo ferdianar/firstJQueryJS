@@ -1,0 +1,54 @@
+#topLines {
+  width: 90%;
+  margin: auto;
+}
+#topLines .col-1, #topLines .col-2, #topLines .col-3, #topLines .col-4, #topLines .col-5 {
+  height: 30px;
+  float: left;
+  width: 5%;
+}
+#topLines .col-1 {
+  background-color: red;
+}
+#topLines .col-2 {
+  background-color: #FFF800;
+}
+#topLines .col-3 {
+  background-color: chartreuse;
+}
+#topLines .col-4 {
+  background-color: blue;
+}
+#topLines .col-5 {
+  background-color: aqua;
+}
+
+#wrap {
+  width: 90%;
+  margin: auto;
+  background-color: #FF8000;
+}
+#wrap #header {
+  width: 100%;
+  height: 187px;
+}
+#wrap #header img {
+  width: 100%;
+}
+#wrap button {
+  border: none;
+  background-color: transparent;
+}
+#wrap button text:hover {
+  background-color: yellow;
+}
+#wrap #select {
+  width: 100%;
+  height: 50px;
+}
+#wrap #select .list li {
+  border-radius: 5px;
+  background: #FFF800;
+}
+
+/*# sourceMappingURL=style.css.map */

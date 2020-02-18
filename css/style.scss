@@ -1,0 +1,62 @@
+//css//
+
+$bgcolor : #FF8000;
+$letak : left;
+$first : red;
+$border : 1px solid black;
+$second : #FFF800;
+$third : chartreuse;
+$fourth : blue;
+$fifth : aqua;
+
+#topLines   {
+        width: 90%;
+        margin: auto;
+        .col-1, .col-2, .col-3, .col-4, .col-5    {
+            height: 30px;
+            float: $letak;
+            width: 5%;
+        }
+        .col-1 {
+            background-color: $first;
+        }
+        .col-2 {
+            background-color: $second;
+        }
+        .col-3 {
+            background-color: $third;
+        }
+        .col-4 {
+            background-color: $fourth;
+        }
+        .col-5 {
+            background-color: $fifth;
+        }
+    }
+#wrap   {
+    width: 90%;
+    margin: auto;
+    background-color: $bgcolor;
+    #header {
+        width: 100%;
+        height: 187px;
+        }
+    #header img {
+        width: 100%;
+    }
+    button  {
+        border: none;
+        background-color: transparent;
+        text:hover  {
+            background-color: yellow;
+        }
+    }
+    #select {
+        width: 100%;
+        height: 50px;
+        .list li  {
+            border-radius: 5px;
+             background: $second;
+        }
+    }
+    }
